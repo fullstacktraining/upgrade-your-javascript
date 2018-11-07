@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="Tamas Piros">
+  <!-- <link rel="modulepreload" href="my-module.mjs"> -->
+  <script type="module" src="my-module.mjs"></script>
+  <script type="module">
+    import { name, greet } from './my-module.mjs';
+    console.log(greet(name));
+  </script>
+  <!-- <script nomodule src="fallback.js"></script> -->
+</head>
+
+<body>
+
+</body>
+</html>
